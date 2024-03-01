@@ -1,6 +1,8 @@
+import { useState } from "react"
 
 
 const Header = () => {
+    let [btn, setbtn] = useState("Login")
     return (
         <div className="header">
             <img src='https://clipground.com/images/restaurants-logo-6.png' alt='logo' />
@@ -9,9 +11,15 @@ const Header = () => {
                 <li>menu</li>
                 <li>contact</li>
                 <li>help</li>
-                <button onClick={()=>{
-                    
-                }}>Login</button>
+                <button className="login-btn" onClick={() => {
+                    if (btn == "Login") {
+                        setbtn("Logout")
+                    }
+                    else {
+                        setbtn("Login")
+                    }
+
+                }}>{btn}</button>
             </ul>
         </div>
     )

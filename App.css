@@ -26,3 +26,8 @@
 .header img {
     width: 100px;
 }
+
+.login-btn {
+    width: 100px;
+    height: 40px;
+}

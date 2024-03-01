@@ -22,16 +22,16 @@ function Body() {
 
     return (
         <>
-            <button onClick={()=>{
-                       
-                    let value=card.filter((p)=>
-                        p.info.avgRating>="4" 
+            <button className="rating-btn" onClick={() => {
 
-                    )
-                    console.log(value)
-                     setcard(value)
+                let value = card.filter((p) =>
+                    p.info.avgRating >= "4.2"
+
+                )
+                console.log(value)
+                setcard(value)
             }
-                  
+
 
             }>Top Rated</button>
             <div className="container">
