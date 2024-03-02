@@ -43,7 +43,7 @@ function Body() {
                         <img src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + it.info.cloudinaryImageId} alt="imgs"></img>
                         <h1>{it.info.name}</h1>
                         <h3>{it.info.areaName}</h3>
-                        <h4>{it.info.avgRating} Ratings</h4>
+                        <h4 className="rating-box">{it.info.avgRating} </h4>
                         <h3>{it.info.costForTwo}</h3>
 
 
