@@ -6,9 +6,7 @@ import Body from './components/Body.js';
 
 const Restaurent = () => {
     return (
-        <div>App</div>
-
-    
+        <div>App</div>    
     )
 }
 
