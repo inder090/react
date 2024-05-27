@@ -9,8 +9,6 @@ const Restaurent = () => {
         <div>App</div>    
     )
 }
-
-
 const App = () => {
 
     return (
