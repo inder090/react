@@ -8,7 +8,6 @@
     background-color: rgb(251, 137, 84);
     display: flex;
 }
-
 .header ul {
     display: flex;
 
@@ -16,7 +15,6 @@
     list-style: none;
 
 }
-
 .header ul li {
     margin: 15px;
 }
